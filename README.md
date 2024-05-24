@@ -51,3 +51,6 @@ The provided ```docker-compose.yml``` file is preconfigured, but you can adjust 
 
 6. **Backing Up Data**
 It's recommended to regularly back up the ```data```, ```logs```, and ```config ``` directories to prevent data loss.
+
+7. You can watch a Full Omada COntroller Setup Based on the youtube link below:
+- https://www.youtube.com/watch?v=e5lCHtagnHA&list=PLcBjWn4HjW4oDEH0Cu_K4rHmsohQuxOcN 
