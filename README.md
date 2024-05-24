@@ -1,4 +1,4 @@
-## System Architecture
+## Network Architecture
 To ensure proper functionality of the Omada Controller Docker, it is essential to establish a connection between the host machine deploying the Omada Controller Container and the TP-Link JetStream Managed Switch or Router. This connection enables the Omada Controller to scan and detect Omada devices within the infrastructure.
 
 ![architecture diagram](omada-infra.drawio.png)
