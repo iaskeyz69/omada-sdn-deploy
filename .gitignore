@@ -1,0 +1,9 @@
+# Ignore environment variables file
+.env
+
+# Ignore Docker-related files
+data/
+logs/
+config/
+
+

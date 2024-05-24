@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  omada-controller:
+    image: mbentley/omada-controller:latest
+    container_name: omada-controller
+    restart: unless-stopped
+    ports:
+      - "8088:8088"
+      - "8043:8043"
+      - "8843:8843"
+      - "29810:29810/udp"
+      - "29811:29811"
+      - "29812:29812"
+      - "29813:29813"
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+    volumes:
+      - ./data:/opt/tplink/EAPController/data
+      - ./logs:/opt/tplink/EAPController/logs
+      - ./config:/opt/tplink/EAPController/config
