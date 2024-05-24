@@ -15,8 +15,8 @@ To ensure proper functionality of the Omada Controller Docker, it is essential t
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/tp-omada-controller.git
-   cd tp-omada-controller
+   git clone https://github.com/your-username/omada-sdn-deploy.git
+   cd omada-sdn-deploy
    ```
 
 2. **Create the .env file:**
